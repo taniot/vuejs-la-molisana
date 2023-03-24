@@ -23,5 +23,6 @@ export default {
 <style lang="scss" scoped>
 header {
     text-align:center;
+    margin-bottom: 70px;
 }
 </style>

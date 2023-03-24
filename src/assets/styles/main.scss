@@ -3,3 +3,14 @@
 @use './partials/mixins' as *;
 @use './partials/typography' as *;
 
+.container {
+   @include container(1135px);
+}
+
+.container-small {
+    @include container(800px);
+ }
+
+ img {
+   max-width: 100%;
+}
